@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function CarMercado(){
+function CarrinhoMercado(){
 
       const [Itens, setItens] = useState("0");
       const [nota, setNota] = useState("");
@@ -26,4 +26,4 @@ function CarMercado(){
     )
 
 }
-export default CarMercado;
+export default CarrinhoMercado;
